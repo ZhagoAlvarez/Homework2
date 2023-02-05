@@ -7,6 +7,13 @@ body {
     color: hsl(60, 6%, 35%);
     line-height: 20px;
 }
+
+.div-imagen-fondo {
+    background-image: url(/Images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
 #outer {
     position: relative;
     width: 60%;
