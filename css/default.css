@@ -2,27 +2,31 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 17px;
+    font-size: 18px;
     font-family:'Trebuchet MS', sans-serif;
-    color: hsl(60, 6%, 35%);
+    color: #fff;
     line-height: 20px;
+    margin: 0%;
 }
-
-.div-imagen-fondo {
-    background-image: url(/Images/background.jpg);
-    background-position: center center;
-    background-size: cover;
-  }
+p{
+    margin: 0%;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+li{
+    padding: 4px;
+}
 
 #outer {
     position: relative;
     width: 60%;
-    margin-top: 10px;
-    background: #fff;
     border: initial;
     overflow: overlay;
-    margin: 0px auto;
+    margin: 10px auto;
 }
+
 #header {
     padding-top: 40px;
     text-align: center;
@@ -30,39 +34,123 @@ body {
     height: 100px;
     padding-bottom: 40px;
 }
+
 #main {
     padding-top: 30px;
     max-width: 100%;
     padding-bottom: 30px;
 }
-#EmploymentTable th{
-    font-size: 17px;
+
+#Title {
+    font-size: 35px;
+    font-family:'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+#Container {
+    position: relative;
+    width: 100%;
+}
+
+#Container2 {
+    float: left;
+    width: 80%;
+}
+
+
+#Container3 {
+    float: right;
+    position:relative ;
+    top: 350px;
+    width: 20%;
+    text-align: left;
+    font-size: 25px;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+#VideoYouTube {
+    float: left;
+    position: relative;
+    left: 500px;
+    width: 50%;
+    padding-bottom: 47px;
+}
+
+#TableCandidatos2022 {
+    color: #fff;
+    font-size: 30px;
     font-family:'Trebuchet MS', sans-serif;
     padding: 10px;
+    position: relative;
+    width: 70%;
+    text-align: center;
 }
-#EmploymentTable td{
-    font-size: 17px;
+#TableCandidatosPersonal {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    font-size: 30px;
     font-family:'Trebuchet MS', sans-serif;
-    padding: 10px;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
-#EducationTable th{
-    font-size: 17px;
-    font-family:'Trebuchet MS', sans-serif;
-    padding: 10px;
-}
-#EducationTable td{
-    font-size: 17px;
-    font-family:'Trebuchet MS', sans-serif;
-    padding: 10px;
-}
-#UTNLogo {
+
+#FotoCandidato {
     position: center;
-    width: 135px;
-    height: 135px;
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    padding: 10px;
 }
+#FotoCandidato2 {
+    position: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#TableCandidatos2022 img:hover {
+    font-size: larger;
+}
+
+#TableResultados2022 {
+    color: #fff;
+    font-size: 25px;
+    font-family:'Trebuchet MS', sans-serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#FotoBandera {
+    position: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 0%;
+}
+#FotoBandera2 {
+    position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
 #footer {
+    padding: 10px;
     max-width: 100%;
     border-top: double;
     text-align: center;
-    color: #a8a88d;
+    color: #fff;
+    background-color: rgb(39, 18, 93);
+}
+#UTNLogo {
+    padding: 5px;
+    padding-bottom: 10px;
+    position: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
 }
